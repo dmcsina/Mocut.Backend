@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Novin SOft\\Desktop\\Mocut\\Sina.Mocut.Backend\\Sina.Mocut.Backend.Security.API\\Sina.Mocut.Backend.Security.API.csproj": {}
+    "C:\\Users\\Novin SOft\\Desktop\\Mocut\\Sina.Mocut.Backend\\Sina.Mocut.Backend.Core\\Sina.Mocut.Backend.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Novin SOft\\Desktop\\Mocut\\Sina.Mocut.Backend\\Sina.Mocut.Backend.Security.API\\Sina.Mocut.Backend.Security.API.csproj": {
+    "C:\\Users\\Novin SOft\\Desktop\\Mocut\\Sina.Mocut.Backend\\Sina.Mocut.Backend.Core\\Sina.Mocut.Backend.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Novin SOft\\Desktop\\Mocut\\Sina.Mocut.Backend\\Sina.Mocut.Backend.Security.API\\Sina.Mocut.Backend.Security.API.csproj",
-        "projectName": "Sina.Mocut.Backend.Security.API",
-        "projectPath": "C:\\Users\\Novin SOft\\Desktop\\Mocut\\Sina.Mocut.Backend\\Sina.Mocut.Backend.Security.API\\Sina.Mocut.Backend.Security.API.csproj",
+        "projectUniqueName": "C:\\Users\\Novin SOft\\Desktop\\Mocut\\Sina.Mocut.Backend\\Sina.Mocut.Backend.Core\\Sina.Mocut.Backend.Core.csproj",
+        "projectName": "Sina.Mocut.Backend.Core",
+        "projectPath": "C:\\Users\\Novin SOft\\Desktop\\Mocut\\Sina.Mocut.Backend\\Sina.Mocut.Backend.Core\\Sina.Mocut.Backend.Core.csproj",
         "packagesPath": "C:\\Users\\Novin SOft\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Novin SOft\\Desktop\\Mocut\\Sina.Mocut.Backend\\Sina.Mocut.Backend.Security.API\\obj\\",
+        "outputPath": "C:\\Users\\Novin SOft\\Desktop\\Mocut\\Sina.Mocut.Backend\\Sina.Mocut.Backend.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,12 +42,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -60,9 +54,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
