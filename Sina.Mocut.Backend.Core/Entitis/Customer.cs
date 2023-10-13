@@ -8,5 +8,6 @@ namespace Sina.Mocut.Backend.Core.Entitis
 {
     public class Customer
     {
+        public String Phonenumber { get; set; }
     }
 }

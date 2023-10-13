@@ -1,9 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using Sina.Mocut.Backend.Infrastructure.Database;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddDbContext<MocutDB>(options =>
+{
+    options.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=MocutDB;Trusted_Connection=True");
+});
 
 var app = builder.Build();
 
@@ -16,10 +24,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
+
 
 app.MapGet("/weatherforecast", () =>
 {
@@ -34,6 +39,10 @@ app.MapGet("/weatherforecast", () =>
     return forecast;
 })
 .WithName("GetWeatherForecast");
+app.MapPost("/userlogin", () =>
+{
+    
+});
 
 app.Run();
 

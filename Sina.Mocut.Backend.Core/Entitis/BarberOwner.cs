@@ -8,5 +8,6 @@ namespace Sina.Mocut.Backend.Core.Entitis
 {
     public class BarberOwner
     {
+        public string Username { get; set; }
     }
 }

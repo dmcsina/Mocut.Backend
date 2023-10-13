@@ -1,0 +1,17 @@
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\bin\Debug\net6.0\Sina.Mocut.Backend.Infrastructure.deps.json
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\bin\Debug\net6.0\Sina.Mocut.Backend.Infrastructure.runtimeconfig.json
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\bin\Debug\net6.0\Sina.Mocut.Backend.Infrastructure.dll
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\bin\Debug\net6.0\Sina.Mocut.Backend.Infrastructure.pdb
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\bin\Debug\net6.0\Sina.Mocut.Backend.Core.dll
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\bin\Debug\net6.0\Sina.Mocut.Backend.Core.pdb
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\obj\Debug\net6.0\Sina.Mocut.Backend.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\obj\Debug\net6.0\Sina.Mocut.Backend.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\obj\Debug\net6.0\Sina.Mocut.Backend.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\obj\Debug\net6.0\Sina.Mocut.Backend.Infrastructure.AssemblyInfo.cs
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\obj\Debug\net6.0\Sina.Mocut.Backend.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\obj\Debug\net6.0\Sina.Mocut.Backend.Infrastructure.csproj.CopyComplete
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\obj\Debug\net6.0\Sina.Mocut.Backend.Infrastructure.dll
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\obj\Debug\net6.0\refint\Sina.Mocut.Backend.Infrastructure.dll
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\obj\Debug\net6.0\Sina.Mocut.Backend.Infrastructure.pdb
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\obj\Debug\net6.0\Sina.Mocut.Backend.Infrastructure.genruntimeconfig.cache
+C:\Users\Novin SOft\Desktop\Mocut\Sina.Mocut.Backend\Sina.Mocut.Backend.Infrastructure\obj\Debug\net6.0\ref\Sina.Mocut.Backend.Infrastructure.dll

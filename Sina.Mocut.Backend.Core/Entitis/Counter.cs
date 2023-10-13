@@ -8,6 +8,7 @@ namespace Sina.Mocut.Backend.Core.Entitis
 {
     public class Counter
     {
+        public string Id { get; set; }
 
     }
 }
