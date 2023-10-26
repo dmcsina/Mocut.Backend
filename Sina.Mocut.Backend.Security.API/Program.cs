@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Sina.Mocut.Backend.Infrastructure.Database;
+using Sina.Mocut.Backend.Security.API.Models;
+using System.Linq;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,27 +28,20 @@ app.UseHttpsRedirection();
 
 
 
-app.MapGet("/weatherforecast", () =>
+
+app.MapPost("/userlogin", (MocutDB DB,LoginRequstDTO loginRequst) =>
 {
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateTime.Now.AddDays(index),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast");
-app.MapPost("/userlogin", () =>
-{
-    
+    Boolean isOk = true;
+    var result = DB
+    .customers
+    .Where(m => m.Phonenumber == loginRequst.PhoneNumber)
+    .FirstOrDefault();
+    if (result != null )
+    {
+        return isOk;
+    }
+    return isOk=false;
+
 });
 
 app.Run();
-
-internal record WeatherForecast(DateTime Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
